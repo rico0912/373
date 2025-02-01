@@ -1,10 +1,64 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介サイト</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f0e6; /* 薄緑色 */
+            color: #333; /* 濃い緑色 */
+        }
+
+        /* ... (その他のCSS) */
+    </style>
 </head>
 <body>
-  Hello、 World!
+    <header>
+        <h1>自己紹介</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">自己紹介</a></li>
+                <li><a href="#pdf">PDFデータ</a></li>
+                <li><a href="#game">ミニゲーム</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>自己紹介</h2>
+        <p>
+            ここに自己紹介文を記述します。
+            例: 〇〇大学〇〇学部〇〇学科の〇〇です。
+            趣味は〇〇で、〇〇に興味があります。
+        </p>
+    </section>
+
+    <section id="pdf">
+        <h2>PDFデータ</h2>
+        <p>
+            <a href="sample.pdf">サンプルPDF</a>
+        </p>
+    </section>
+
+    <section id="game">
+        <h2>ミニゲーム</h2>
+        <p>
+            ここにミニゲームを埋め込みます。
+            例: <iframe src="game.html"></iframe>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 〇〇</p>
+    </footer>
+
+    <script>
+        // JavaScriptコード
+        console.log("Hello, world!");
+    </script>
 </body>
 </html>
